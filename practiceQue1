@@ -1,0 +1,27 @@
+movie=[]
+mov1=str (input("enter your 1st favourite movie:"))
+mov2=str(input("enter your 2nd favourite movie:"))
+mov3=str(input("enter your 3rd favourite movie:"))
+movie.append(mov1)
+movie.append(mov2)
+movie.append(mov3)
+print(list(movie))
+
+
+question 2
+
+# wap to check if a list containa palindrome  of elemtns . (hint us ecopy() method)
+
+
+list1=[1,2,3,2,1]
+list2=[1,2,3]
+copy_list1=list1.copy()
+copy_list1.reverse()
+copy_list2=list2.copy()
+copy_list2.reverse()
+if(copy_list1==list1):
+    print("list contain the palindrome")
+elif(copy_list2==list2):
+    print("list")
+    
+

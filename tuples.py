@@ -22,4 +22,11 @@ print(type(tup4))
 tup6=(3.5  ,)  #due to comma after single element consider as tuple
 print(type(tup6))
 
+# tuple slicing
+tup7=(4,8,6,9)
+print(tup7[1:3])
 
+#tuple method
+tup8=(21,87,45,95,45)
+print(tup8.index(21)) # descibe the element exist at which index
+print(tup8.count(45)) # coutn the  total no. of occurence of the element which is enclosed in bracket
