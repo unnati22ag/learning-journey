@@ -182,7 +182,7 @@ drop column age;
 select * from student;
 insert into student
 values
-("101""diya",45,"c",
+("101""diya",45,"c","jaipur");
 
 
  
